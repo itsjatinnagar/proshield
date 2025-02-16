@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: rgb(24, 37, 46);
+  --color-accent: rgb(173, 162, 135);
+}
+
 html {
   font-family: Raleway, sans-serif;
+}
+
+header {
+  height: calc(100vh - 2rem);
+}
+
+.hero {
+  background-image: url("/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
