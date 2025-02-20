@@ -4,7 +4,7 @@ import Phone from "../icons/phone";
 
 export default function Contact() {
   return (
-    <section className="py-20 bg-primary text-white">
+    <section className="py-20 bg-primary text-white" id="contact">
       <div className="mx-auto container">
         <h2 className="font-medium text-accent text-center">Contact Us</h2>
         <p className="font-bold text-2xl text-center">

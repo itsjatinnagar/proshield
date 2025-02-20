@@ -1,4 +1,7 @@
 import ArrowRight from "../icons/arrow-right";
+import Envelope from "../icons/envelope";
+import Facebook from "../icons/facebook";
+import Whatsapp from "../icons/whatsapp";
 
 export default function Header() {
   return (
@@ -33,6 +36,27 @@ export default function Header() {
               </span>
             </a>
           </div>
+        </div>
+        <div className="absolute z-10 bottom-5 right-5 flex flex-col items-center gap-2">
+          <div className="h-20 border-r-2 border-white" />
+          <a
+            href="#"
+            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+          >
+            <Facebook />
+          </a>
+          <a
+            href="#"
+            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+          >
+            <Whatsapp />
+          </a>
+          <a
+            href="#"
+            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+          >
+            <Envelope />
+          </a>
         </div>
       </div>
     </header>
