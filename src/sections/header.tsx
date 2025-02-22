@@ -37,23 +37,22 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <div className="absolute z-10 bottom-5 right-5 flex flex-col items-center gap-2">
-          <div className="h-20 border-r-2 border-white" />
+        <div className="fixed z-10 bottom-5 right-5 flex flex-col items-center gap-2">
           <a
             href="#"
-            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+            className="inline-block p-2 bg-accent border-2 border-accent rounded-full transition-colors hover:bg-white"
           >
             <Facebook />
           </a>
           <a
             href="#"
-            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+            className="inline-block p-2 bg-accent border-2 border-accent rounded-full transition-colors hover:bg-white"
           >
             <Whatsapp />
           </a>
           <a
             href="#"
-            className="inline-block p-2 bg-white rounded-full transition-colors hover:bg-accent"
+            className="inline-block p-2 bg-accent border-2 border-accent rounded-full transition-colors hover:bg-white"
           >
             <Envelope />
           </a>
