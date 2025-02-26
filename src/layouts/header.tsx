@@ -33,7 +33,7 @@ function Button() {
     <a
       role="button"
       href="#contact"
-      className="mt-6 inline-flex items-center justify-center gap-1.5 px-5 py-3 bg-accent text-black transition-colors cursor-pointer hover:bg-white focus:bg-white"
+      className="mt-6 inline-flex items-center justify-center gap-1.5 px-5 py-3 bg-accent text-black transition-colors cursor-pointer hover:bg-white"
     >
       <span className="text-xl uppercase">get in touch</span>
       <ArrowRight className="size-5" />
