@@ -1,5 +1,11 @@
+import Banner from "./layouts/banner";
+import Header from "./layouts/header";
+
 export default function App() {
   return (
-    <h1 className="font-bold text-3xl underline">Proshield Construction</h1>
+    <>
+      <Banner />
+      <Header />
+    </>
   );
 }

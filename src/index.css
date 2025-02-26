@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: rgb(25, 39, 48);
+  --color-accent: rgb(173, 162, 135);
+}
+
+:root {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: calc(100vh - 3.5rem);
+}
+
+.hero {
+  background-image: url("/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
