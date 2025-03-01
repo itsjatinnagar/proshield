@@ -1,6 +1,6 @@
 const services = [
   {
-    title: "Shingle roof",
+    title: "Shingle & metal roof",
     description:
       "A shingle roof refers to a roofing system made of overlapping materials, typically designed to shed water and provide protection to a building. The shingles are typically made of materials such as asphalt, wood, slate, or metal, with asphalt shingles being the most common in modern residential construction due to their affordability, durability, and ease of installation.",
   },
