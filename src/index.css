@@ -20,3 +20,25 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (hover: hover) {
+  .foreground {
+    @apply h-full;
+  }
+  .foreground h3 {
+    @apply text-2xl;
+  }
+  .card:hover .foreground {
+    @apply h-10;
+  }
+  .card:hover .foreground h3 {
+    @apply text-base;
+  }
+
+  .circle::before {
+    transform: scale(20);
+  }
+  .button:hover .circle::before {
+    transform: scale(1);
+  }
+}

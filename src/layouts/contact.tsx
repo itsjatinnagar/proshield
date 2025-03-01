@@ -51,32 +51,37 @@ export default function Contact() {
                 name="first-name"
                 placeholder="First Name"
                 className="block px-3 h-10 w-full border-2 border-white/20 focus-visible:outline-none focus:border-accent"
+                required
               />
               <input
                 type="text"
                 name="last-name"
                 placeholder="Last Name"
                 className="block px-3 h-10 w-full border-2 border-white/20 focus-visible:outline-none focus:border-accent"
+                required
               />
             </div>
             <div className="flex flex-col gap-3 xl:flex-row">
               <input
-                type="text"
+                type="email"
                 name="email"
                 placeholder="Email Address"
                 className="block px-3 h-10 w-full border-2 border-white/20 focus-visible:outline-none focus:border-accent"
+                required
               />
               <input
-                type="text"
+                type="tel"
                 name="mobile"
                 placeholder="Mobile Number"
                 className="block px-3 h-10 w-full border-2 border-white/20 focus-visible:outline-none focus:border-accent"
+                required
               />
             </div>
             <textarea
               name="message"
               placeholder="Message"
               className="block px-3 py-3 h-20 w-full border-2 border-white/20 focus-visible:outline-none resize-none focus:border-accent"
+              required
             />
             <button
               type="submit"

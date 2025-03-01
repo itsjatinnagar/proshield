@@ -37,9 +37,9 @@ export default function Services() {
       <div className="mx-auto container text-center">
         <h2 className="font-medium text-accent">Our Offerings</h2>
         <p className="font-bold text-2xl text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing
+          We offer a wide range of services.
         </p>
-        <div className="mt-6 w-full grid auto-rows-fr justify-between gap-5 md:grid-cols-2 lg:mt-10 xl:grid-cols-3">
+        <div className="mt-6 w-full grid justify-between gap-5 md:auto-rows-fr md:grid-cols-2 lg:mt-10 xl:grid-cols-3">
           {services.map((service, key) => (
             <Card
               key={key}
@@ -56,12 +56,12 @@ export default function Services() {
 type Props = { title: string; description: string };
 function Card({ description, title }: Props) {
   return (
-    <div className="group relative border border-accent">
-      <div className="p-5 pb-15 bg-white">
+    <div className="card relative border border-accent">
+      <div className="p-5 pb-15 h-full bg-white">
         <p className="leading-relaxed whitespace-pre-line">{description}</p>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 h-full w-full grid place-items-center bg-accent transition-all cursor-pointer group-hover:h-10">
-        <h3 className="font-semibold text-2xl uppercase transition-all group-hover:text-base">
+      <div className="foreground absolute bottom-0 left-0 right-0 h-10 w-full grid place-items-center bg-accent transition-all cursor-pointer">
+        <h3 className="font-semibold text-base uppercase transition-all">
           {title}
         </h3>
       </div>

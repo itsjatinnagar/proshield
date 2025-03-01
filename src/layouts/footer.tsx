@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="mx-auto container flex flex-col items-center justify-between gap-5 md:flex-row">
         <div className="inline-flex items-center justify-center gap-2">
           <a href="#">
-            <Facebook className="size-6" />
+            <Facebook className="size-6 transition-colors hover:fill-accent" />
           </a>
           <a href="#">
-            <WhatsApp className="size-6" />
+            <WhatsApp className="size-6 transition-colors hover:fill-accent" />
           </a>
         </div>
         <p>Copyright &copy; 2025 | All Rights Reserved</p>
